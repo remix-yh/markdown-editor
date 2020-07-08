@@ -17,3 +17,5 @@
 画像をドラッグアンドドロップで挿入したい
 ## 期間
 7/2 - 7/14
+## Markdigの設定方法
+- Windows Formsプロジェクト(.NET Framework 4.6.1)作成し、NuGetでMarkdigをインストール
