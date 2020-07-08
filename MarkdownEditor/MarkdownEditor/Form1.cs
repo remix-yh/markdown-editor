@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Markdig;
+using System;
 using System.Windows.Forms;
 
 namespace MarkdownEditor
@@ -19,7 +13,7 @@ namespace MarkdownEditor
 
         private void btnParse_Click(object sender, EventArgs e)
         {
-            string html = MarkdownParseLib.MarkdownParser.ParseHtml(txtMarkdown.Text);
+            string html = Markdown.ToHtml(txtMarkdown.Text);
             txtHTML.Text = html;
         }
     }

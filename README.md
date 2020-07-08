@@ -18,7 +18,4 @@
 ## 期間
 7/2 - 7/14
 ## Markdigの設定方法
-- .NET Standard 2.0で動くため、クラスライブラリ(.NET Standard)でプロジェクト作成。
-- .NET Standardのクラスライブラリのプロジェクトにて、NuGetでMarkdigをインストール
-- Windows Formsプロジェクト(.NET Framework 4.6.1)作成し、.NET Standardのクラスライブラリを参照
-- Widnows Formsプロジェクトでも、NuGetにてMarkdigをインストール(Markdigのdllが入らなかったので)
+- Windows Formsプロジェクト(.NET Framework 4.6.1)作成し、NuGetでMarkdigをインストール

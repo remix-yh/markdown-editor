@@ -96,11 +96,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MarkdownParseLib\MarkdownParseLib.csproj">
-      <Project>{01dcd051-16e6-4b1a-82a5-fb2ce6df0356}</Project>
-      <Name>MarkdownParseLib</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
